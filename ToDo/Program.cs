@@ -32,7 +32,16 @@ if (app.Environment.IsDevelopment())
     using (var scope = app.Services.CreateScope())
     {
         var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-        db.Database.EnsureCreated();
+        try
+        {
+            // Ensure database is created
+            var created = db.Database.EnsureCreated();
+            Console.WriteLine($"Database created: {created}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Database creation error: {ex.Message}");
+        }
     }
     // Don't use migrations endpoint in Development with SQLite
     app.UseDeveloperExceptionPage();
