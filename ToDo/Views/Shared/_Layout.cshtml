@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ToDo.styles.css" asp-append-version="true" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-primary shadow-sm mb-4">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ToDo <small class="text-muted">by PVNKsenpai</small></a>
+                <a class="navbar-brand fw-bold" asp-area="" asp-controller="ToDo" asp-action="Index">
+                    <i class="fas fa-tasks me-2"></i>ToDo <small class="text-light opacity-75">by PVNKsenpai</small>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -20,10 +23,14 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="ToDo" asp-action="Index">Home</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="ToDo" asp-action="Index">
+                                <i class="fas fa-home me-1"></i>Home
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="ToDo" asp-action="Create">Create</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="ToDo" asp-action="Create">
+                                <i class="fas fa-plus me-1"></i>Create New
+                            </a>
                         </li>
                         
                     </ul>
@@ -31,15 +38,15 @@
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div class="container-fluid px-4">
+        <main role="main" class="pb-4">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - ToDo by PVNKsenpai - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer class="bg-light border-top footer text-muted py-3 mt-5">
+        <div class="container text-center">
+            <small>&copy; 2025 - ToDo by PVNKsenpai - <a asp-area="" asp-controller="Home" asp-action="Privacy" class="text-decoration-none">Privacy</a></small>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
