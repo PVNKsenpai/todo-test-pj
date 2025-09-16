@@ -35,8 +35,6 @@ A modern, responsive To-Do List web application built with ASP.NET Core MVC, Ent
 ![Edit Task](images/ui/edit-task.png)
 *Edit form with pre-populated data and validation*
 
-> **Note**: These are real screenshots of the ToDo application running locally. The UI features modern Bootstrap 5 design with FontAwesome icons and responsive layout.
-
 ## 🚀 Getting Started
 
 ## Prerequisites
