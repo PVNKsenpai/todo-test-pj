@@ -2,8 +2,6 @@
 
 A modern, responsive To-Do List web application built with ASP.NET Core MVC, Entity Framework Core, and Bootstrap 5.
 
-![ToDo App](https://via.placeholder.com/800x400/007bff/ffffff?text=ToDo+App+by+PVNKsenpai)
-
 ## ✨ Features
 
 - **Modern UI Design**: Clean, responsive interface with Bootstrap 5 and FontAwesome icons
