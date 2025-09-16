@@ -34,7 +34,8 @@ if (app.Environment.IsDevelopment())
         var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
         db.Database.EnsureCreated();
     }
-    app.UseMigrationsEndPoint();
+    // Don't use migrations endpoint in Development with SQLite
+    app.UseDeveloperExceptionPage();
 }
 else
 {
