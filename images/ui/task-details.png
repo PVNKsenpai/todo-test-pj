@@ -1,13 +1,12 @@
-PLACEHOLDER IMAGE: Task Details View
+HƯỚNG DẪN CHỤP ẢNH TRANG CHI TIẾT:
 
-This would be a screenshot showing:
-- Individual task details page
-- Task information display:
-  * Title and description
-  * Due date
-  * Completion status
-- Action buttons (Edit, Delete, Back to List)
-- Modern card layout
-- Clean typography
+1. Tạo một task trước: http://localhost:5137/ToDo/Create
+2. Truy cập chi tiết: http://localhost:5137/ToDo/Details/1
+3. Chụp ảnh trang chi tiết với:
+   - Thông tin task đầy đủ
+   - Nút Edit, Delete, Back to List
+   - Layout card đẹp
+4. Lưu thành: task-details.png
+5. Thay thế file này
 
-File: task-details.png
+Ảnh này sẽ hiển thị trang chi tiết task với modern design.

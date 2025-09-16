@@ -1,15 +1,12 @@
-PLACEHOLDER IMAGE: Create New Task Form
+HƯỚNG DẪN CHỤP ẢNH FORM TẠO TASK:
 
-This would be a screenshot showing:
-- Clean form design with modern styling
-- Form fields with FontAwesome icons:
-  * Task Title input
-  * Description textarea
-  * Due Date date picker
-  * Completed checkbox
-- Styled buttons (Cancel, Create Task)
-- Form validation styling
-- Responsive layout
-- Modern card container
+1. Truy cập: http://localhost:5137/ToDo/Create
+2. Chụp ảnh form với:
+   - Tiêu đề "Create New Task"
+   - Các trường: Title, Description, Date, IsDone
+   - Nút Cancel và Create Task
+   - FontAwesome icons
+3. Lưu thành: create-task.png
+4. Thay thế file này
 
-File: create-task.png
+Ảnh này sẽ hiển thị form tạo task mới với Bootstrap 5 styling.

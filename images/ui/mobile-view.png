@@ -1,12 +1,14 @@
-PLACEHOLDER IMAGE: Mobile Responsive View
+HƯỚNG DẪN CHỤP ẢNH MOBILE VIEW:
 
-This would be a screenshot showing:
-- Mobile-optimized layout
-- Collapsible navbar
-- Stacked task cards instead of table
-- Touch-friendly buttons
-- Responsive typography
-- Optimized spacing for mobile
-- Swipe-friendly interface
+1. Mở DevTools: F12
+2. Kích hoạt mobile view: Ctrl+Shift+M
+3. Chọn thiết bị: iPhone 12 hoặc Samsung Galaxy S21
+4. Truy cập: http://localhost:5137/ToDo
+5. Chụp ảnh giao diện mobile với:
+   - Navbar thu gọn
+   - Layout responsive
+   - Buttons touch-friendly
+6. Lưu thành: mobile-view.png
+7. Thay thế file này
 
-File: mobile-view.png
+Ảnh này sẽ hiển thị giao diện mobile responsive.

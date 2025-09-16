@@ -1,11 +1,13 @@
-PLACEHOLDER IMAGE: Edit Task Form
+HƯỚNG DẪN CHỤP ẢNH FORM CHỈNH SỬA:
 
-This would be a screenshot showing:
-- Edit form with pre-populated data
-- Same styling as create form
-- Form fields filled with existing task data
-- Update button instead of Create
-- Form validation
-- Modern card container
+1. Tạo một task trước: http://localhost:5137/ToDo/Create
+2. Truy cập chỉnh sửa: http://localhost:5137/ToDo/Edit/1
+3. Chụp ảnh form chỉnh sửa với:
+   - Form đã điền sẵn dữ liệu
+   - Nút Cancel và Update Task
+   - FontAwesome icons
+   - Validation styling
+4. Lưu thành: edit-task.png
+5. Thay thế file này
 
-File: edit-task.png
+Ảnh này sẽ hiển thị form chỉnh sửa với dữ liệu có sẵn.
