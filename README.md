@@ -1,6 +1,30 @@
 # ToDo (by PVNKsenpai)
 
-A simple CRUD To-Do List web app built with ASP.NET Core MVC and Entity Framework Core.
+A modern, responsive To-Do List web application built with ASP.NET Core MVC, Entity Framework Core, and Bootstrap 5.
+
+![ToDo App](https://via.placeholder.com/800x400/007bff/ffffff?text=ToDo+App+by+PVNKsenpai)
+
+## ✨ Features
+
+- **Modern UI Design**: Clean, responsive interface with Bootstrap 5 and FontAwesome icons
+- **CRUD Operations**: Create, Read, Update, Delete tasks
+- **Status Tracking**: Mark tasks as completed or pending
+- **Responsive Design**: Works perfectly on desktop, tablet, and mobile
+- **Database Flexibility**: SQLite for development, SQL Server for production
+- **E2E Testing**: Automated testing with NUnit and Selenium
+
+## 🖼️ UI Screenshots
+
+### Home Page - Task List
+![Task List](https://via.placeholder.com/800x500/f8f9fa/333333?text=Task+List+View)
+
+### Create New Task
+![Create Task](https://via.placeholder.com/800x600/ffffff/333333?text=Create+New+Task+Form)
+
+### Mobile Responsive
+![Mobile View](https://via.placeholder.com/400x600/f8f9fa/333333?text=Mobile+Responsive+View)
+
+## 🚀 Getting Started
 
 ## Prerequisites
 - .NET 8 SDK
@@ -30,7 +54,7 @@ Open:
 - https://localhost:7290/ (accept the dev cert warning)
 - ToDo page: append `/ToDo` to the base URL
 
-## Database
+## 🗄️ Database
 - Development uses SQLite by default (`Data Source=ToDo_dev.db` in `appsettings.Development.json`).
 - Production uses SQL Server via `ConnectionStrings:DefaultConnection` in `appsettings.json`.
 
@@ -44,13 +68,13 @@ dotnet ef database update
 - Create / Edit / Delete
 - View details
 
-## Project Structure
+## 📁 Project Structure
 - Controllers: `ToDo/Controllers`
 - Views: `ToDo/Views`
 - Data: `ToDo/Data`
 - Models: `ToDo/Models`
 
-## Automation Scripts (NUnit + Selenium)
+## 🧪 Automation Scripts (NUnit + Selenium)
 Example E2E test to create a ToDo and verify it appears in the list. Make sure the app is running (e.g., `http://localhost:5137`) and Chrome is installed.
 
 ```csharp
@@ -102,8 +126,8 @@ Run tests with NUnit (example commands):
 # dotnet test
 ```
 
-## Contributing
+## 🤝 Contributing
 PRs welcome. Fork, branch, commit, and open a PR.
 
-## License
+## 📄 License
 MIT
