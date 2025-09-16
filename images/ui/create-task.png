@@ -1,0 +1,15 @@
+PLACEHOLDER IMAGE: Create New Task Form
+
+This would be a screenshot showing:
+- Clean form design with modern styling
+- Form fields with FontAwesome icons:
+  * Task Title input
+  * Description textarea
+  * Due Date date picker
+  * Completed checkbox
+- Styled buttons (Cancel, Create Task)
+- Form validation styling
+- Responsive layout
+- Modern card container
+
+File: create-task.png

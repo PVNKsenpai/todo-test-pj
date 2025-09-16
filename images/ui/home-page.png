@@ -1,0 +1,15 @@
+PLACEHOLDER IMAGE: Home Page - Task List View
+
+This would be a screenshot showing:
+- Modern navbar with "ToDo by PVNKsenpai" branding
+- Welcome section with gradient background
+- Task list table with:
+  * Task titles and descriptions
+  * Due dates with calendar icons
+  * Status badges (Completed/Pending)
+  * Action buttons (Edit, Details, Delete)
+- Empty state message when no tasks exist
+- Responsive Bootstrap 5 design
+- FontAwesome icons throughout
+
+File: home-page.png

@@ -16,13 +16,26 @@ A modern, responsive To-Do List web application built with ASP.NET Core MVC, Ent
 ## 🖼️ UI Screenshots
 
 ### Home Page - Task List
-![Task List](https://via.placeholder.com/800x500/f8f9fa/333333?text=Task+List+View)
+![Task List](images/ui/home-page.png)
+*Modern task list with Bootstrap 5 styling, status badges, and action buttons*
 
 ### Create New Task
-![Create Task](https://via.placeholder.com/800x600/ffffff/333333?text=Create+New+Task+Form)
+![Create Task](images/ui/create-task.png)
+*Clean form design with FontAwesome icons and responsive layout*
 
 ### Mobile Responsive
-![Mobile View](https://via.placeholder.com/400x600/f8f9fa/333333?text=Mobile+Responsive+View)
+![Mobile View](images/ui/mobile-view.png)
+*Fully responsive design that works perfectly on mobile devices*
+
+### Task Details View
+![Task Details](images/ui/task-details.png)
+*Detailed view of individual tasks with modern card design*
+
+### Edit Task Form
+![Edit Task](images/ui/edit-task.png)
+*Edit form with pre-populated data and validation*
+
+> **Note**: These are placeholder images describing the UI. In a real project, you would replace these with actual screenshots of your application.
 
 ## 🚀 Getting Started
 
